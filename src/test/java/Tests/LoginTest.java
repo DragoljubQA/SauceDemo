@@ -93,6 +93,11 @@ public class LoginTest extends BaseTest {
 
     }
 
+    @Test
+    public void noviTest() {
+
+    }
+
     @AfterMethod
     public void tearDown() {
         driver.quit();
