@@ -5,7 +5,6 @@ import Pages.HomePage;
 import Pages.LoginPage;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
