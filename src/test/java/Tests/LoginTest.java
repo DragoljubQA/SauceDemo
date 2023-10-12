@@ -5,6 +5,7 @@ import Pages.HomePage;
 import Pages.LoginPage;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -25,7 +26,7 @@ public class LoginTest extends BaseTest {
         /*ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
         driver = new ChromeDriver(options);*/
-        driver = new ChromeDriver();
+        driver = new EdgeDriver();
         wdwait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.manage().window().maximize();
         driver.get(LandingURL);
@@ -94,7 +95,7 @@ public class LoginTest extends BaseTest {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
 
 }
