@@ -43,6 +43,16 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(homePage.SortButton.isDisplayed());
     }
 
+    @Test
+    public void userCanLogOut() {
+        logIn(validUsername, validPassword);
+        homePage.openHamburgerMenu();
+        homePage.clickOnLogoutButton();
+        Assert.assertFalse(elementIsDisplayed(homePage.CartButton));
+        Assert.assertEquals(driver.getCurrentUrl(), LandingURL);
+        Assert.assertTrue(loginPage.LoginButton.isDisplayed());
+    }
+
 
     @Test (priority = 20)
     public void userCannotLogInWithInvalidUsername() {
