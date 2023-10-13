@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class HomePage extends BaseTest {
-    public HomePage(WebDriver driver) {
+    public HomePage() {
         PageFactory.initElements(driver,this);
     }
 

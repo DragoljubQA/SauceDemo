@@ -1,6 +1,7 @@
 package Tests;
 
 import Base.BaseTest;
+import Helpers.WebDriverFactory;
 import Pages.HomePage;
 import Pages.LoginPage;
 import com.github.javafaker.Faker;
@@ -23,15 +24,9 @@ public class LoginTest extends BaseTest {
 
     @BeforeMethod
     public void pageSetUp() {
-        /*ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);*/
-        driver = new EdgeDriver();
-        wdwait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        driver.get(LandingURL);
-        loginPage = new LoginPage(driver);
-        homePage = new HomePage(driver);
+        driver.navigate().to(LandingURL);
+        loginPage = new LoginPage();
+        homePage = new HomePage();
         data = new Data();
     }
 
@@ -91,11 +86,6 @@ public class LoginTest extends BaseTest {
         //System.out.println(faker.regexify("[A-Za-z0-9]{10}"));
         //System.out.println("projekatxyz+"+faker.name().firstName()+"@gmail.com");
 
-    }
-
-    @AfterMethod
-    public void tearDown() {
-        //driver.quit();
     }
 
 }

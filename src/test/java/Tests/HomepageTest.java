@@ -20,16 +20,9 @@ public class HomepageTest extends BaseTest {
 
     @BeforeMethod
     public void pageSetUp() {
-        /*ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);*/
-        driver = new EdgeDriver();
-        wdwait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.manage().window().maximize();
-        driver.get(LandingURL);
-        loginPage = new LoginPage(driver);
-        homePage = new HomePage(driver);
+        driver.navigate().to(LandingURL);
+        loginPage = new LoginPage();
+        homePage = new HomePage();
     }
 
     public void logIn(String username, String password) {
@@ -58,8 +51,4 @@ public class HomepageTest extends BaseTest {
         Assert.assertEquals(homePage.HamburgerMenuItems.get(3).getText(), "Reset App State");*/
     }
 
-    @AfterMethod
-    public void tearDown() {
-        driver.quit();
-    }
 }
