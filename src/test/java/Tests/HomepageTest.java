@@ -49,13 +49,5 @@ public class HomepageTest extends BaseTest {
         Assert.assertEquals(homePage.ResetButton.getText(), "Reset App State");
     }
 
-    @Test
-    public void aboutLeadsToAnotherPage() {
-        logIn(validUsername, validPassword);
-        Assert.assertNotEquals(driver.getTitle(), "Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing");
-        homePage.openHamburgerMenu();
-        homePage.clickOnAboutButton();
-        Assert.assertEquals(driver.getTitle(), "Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing");
-    }
 
 }

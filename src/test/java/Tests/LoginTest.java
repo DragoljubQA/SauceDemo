@@ -43,7 +43,7 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(homePage.SortButton.isDisplayed());
     }
 
-    @Test
+    @Test (priority = 15)
     public void userCanLogOut() {
         logIn(validUsername, validPassword);
         homePage.openHamburgerMenu();
