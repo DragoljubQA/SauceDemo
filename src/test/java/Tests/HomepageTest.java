@@ -41,14 +41,21 @@ public class HomepageTest extends BaseTest {
     public void hamburgerMenuHasExpectedItems() {
         logIn(validUsername, validPassword);
         Assert.assertEquals(homePage.HamburgerMenuItems.size(), 4);
-        /*Assert.assertEquals(homePage.AllItemsButton.getText(), "All Items");
+        homePage.openHamburgerMenu();
+        waitForVisibility(homePage.AllItemsButton);
+        Assert.assertEquals(homePage.AllItemsButton.getText(), "All Items");
         Assert.assertEquals(homePage.AboutButton.getText(), "About");
         Assert.assertEquals(homePage.LogoutButton.getText(), "Logout");
-        Assert.assertEquals(homePage.ResetButton.getText(), "Reset App State");*/
-        /*Assert.assertEquals(homePage.HamburgerMenuItems.get(0).getText(), "All Items");
-        Assert.assertEquals(homePage.HamburgerMenuItems.get(1).getText(), "About");
-        Assert.assertEquals(homePage.HamburgerMenuItems.get(2).getText(), "Logout");
-        Assert.assertEquals(homePage.HamburgerMenuItems.get(3).getText(), "Reset App State");*/
+        Assert.assertEquals(homePage.ResetButton.getText(), "Reset App State");
+    }
+
+    @Test
+    public void aboutLeadsToAnotherPage() {
+        logIn(validUsername, validPassword);
+        Assert.assertNotEquals(driver.getTitle(), "Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing");
+        homePage.openHamburgerMenu();
+        homePage.clickOnAboutButton();
+        Assert.assertEquals(driver.getTitle(), "Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing");
     }
 
 }

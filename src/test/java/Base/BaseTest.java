@@ -52,7 +52,7 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
 
     public void waitForVisibility(WebElement element) {

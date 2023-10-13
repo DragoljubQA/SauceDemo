@@ -22,6 +22,9 @@ public class HomePage {
     @FindBy(className = "bm-menu-wrap")
     public WebElement HiddenMenu;
 
+    @FindBy(className = "bm-burger-button")
+    public WebElement OpenHamburgerMenu;
+
     @FindBy(css = ".bm-item.menu-item")
     public List<WebElement> HamburgerMenuItems;
 
@@ -41,6 +44,18 @@ public class HomePage {
 
     public void clickOnCartButton() {
         CartButton.click();
+    }
+
+    public void openHamburgerMenu() {
+        OpenHamburgerMenu.click();
+    }
+
+    public void clickOnAboutButton() {
+        AboutButton.click();
+    }
+
+    public void clickOnLogoutButton() {
+        LogoutButton.click();
     }
 
 }

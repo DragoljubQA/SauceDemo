@@ -21,7 +21,6 @@ import Helpers.Data;
 
 public class LoginTest extends BaseTest {
 
-
     @BeforeMethod
     public void pageSetUp() {
         driver.navigate().to(LandingURL);
@@ -44,6 +43,7 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(homePage.SortButton.isDisplayed());
     }
 
+
     @Test (priority = 20)
     public void userCannotLogInWithInvalidUsername() {
         logIn("username", validPassword);
@@ -60,7 +60,7 @@ public class LoginTest extends BaseTest {
         Assert.assertFalse(elementIsDisplayed(homePage.SortButton));
     }
 
-    @Test (priority = 40, dataProvider = "usernameAndPassword")
+    @Test (priority = 40, dataProvider = "usernameAndPassword", dataProviderClass = Data.class)
     public void userCannotLogInWithInvalidUsernameAndPassword(String username, String password) {
         logIn(username, password);
         Assert.assertNotEquals(driver.getCurrentUrl(), HomeURL);
@@ -68,23 +68,14 @@ public class LoginTest extends BaseTest {
         Assert.assertFalse(elementIsDisplayed(homePage.SortButton));
     }
 
-    @DataProvider(name = "usernameAndPassword")
-    public Object[][] Data() {
-        Object[][] data = {{"username", "password"}, {"standard", "pass_word"}, {"user", "pass"}};
-        return data;
-    }
-
     @Test (priority = 50)
     public void userCannotLogInWithRandomData() {
-        Faker faker = new Faker();
         for (int i = 0; i < 10; i++) {
-            logIn(faker.name().username(), faker.internet().password(6, 10, true));
+            logIn(fakerUsername(), fakerPassword());
             Assert.assertNotEquals(driver.getCurrentUrl(), HomeURL);
             Assert.assertFalse(elementIsDisplayed(homePage.CartButton));
             Assert.assertFalse(elementIsDisplayed(homePage.SortButton));
         }
-        //System.out.println(faker.regexify("[A-Za-z0-9]{10}"));
-        //System.out.println("projekatxyz+"+faker.name().firstName()+"@gmail.com");
 
     }
 
