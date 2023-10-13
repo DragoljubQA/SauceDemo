@@ -23,7 +23,7 @@ import java.util.HashMap;
 import static Helpers.Data.LandingURL;
 
 public class BaseTest {
-    public static WebDriver driver;
+    public WebDriver driver;
     public WebDriverWait wait;
     public static ExcelReader excelReader;
     public LoginPage loginPage;

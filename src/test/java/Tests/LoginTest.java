@@ -25,8 +25,8 @@ public class LoginTest extends BaseTest {
     @BeforeMethod
     public void pageSetUp() {
         driver.navigate().to(LandingURL);
-        loginPage = new LoginPage();
-        homePage = new HomePage();
+        loginPage = new LoginPage(driver);
+        homePage = new HomePage(driver);
         data = new Data();
     }
 
