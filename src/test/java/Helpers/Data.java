@@ -49,6 +49,6 @@ public class Data {
 
     @DataProvider(name = "usernameAndPassword")
     public Object[][] DataTest() {
-        return new Object[][]{{"username", "password"}, {"standard", "pass_word"}, {"user", "pass"}};
+        return new Object[][]{{"username", "password"}, {"standard", "pass_word"}, {"user", "pass"}, {"user 1", "password1"}};
     }
 }

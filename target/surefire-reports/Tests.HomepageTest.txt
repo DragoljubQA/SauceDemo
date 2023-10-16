@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Tests.HomepageTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.96 s -- in Tests.HomepageTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.305 sec

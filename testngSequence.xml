@@ -5,6 +5,7 @@
         <classes>
             <class name="Tests.LoginTest"></class>
             <class name="Tests.HomepageTest"></class>
-        </classes
-        ></test>
+            <class name="Tests.CartTest"/>
+        </classes>
+    </test>
 </suite>
