@@ -1,167 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-20T23:56:00 CET" name="Command line suite" finished-at="2023-01-20T23:56:16 CET" duration-ms="16709">
+  <suite started-at="2023-10-16T16:15:57 CEST" name="Surefire suite" finished-at="2023-10-16T16:16:19 CEST" duration-ms="21686">
     <groups>
     </groups>
-    <test started-at="2023-01-20T23:56:00 CET" name="Command line test" finished-at="2023-01-20T23:56:16 CET" duration-ms="16709">
+    <test started-at="2023-10-16T16:15:57 CEST" name="Surefire test" finished-at="2023-10-16T16:16:19 CEST" duration-ms="21686">
       <class name="Tests.HomepageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.HomepageTest@7219ec67]" started-at="2023-01-20T23:56:00 CET" name="setUp" finished-at="2023-01-20T23:56:01 CET" duration-ms="1033" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:15:57 CEST" name="setUp" finished-at="2023-10-16T16:15:58 CEST" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@7219ec67]" started-at="2023-01-20T23:56:01 CET" name="pageSetUp" finished-at="2023-01-20T23:56:03 CET" duration-ms="2506" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:15:58 CEST" name="driverSetUp" finished-at="2023-10-16T16:16:00 CEST" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:00 CEST" name="pageSetUp" finished-at="2023-10-16T16:16:01 CEST" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="hamburgerMenuHasExpectedItems()[pri:0, instance:Tests.HomepageTest@7219ec67]" started-at="2023-01-20T23:56:03 CET" name="hamburgerMenuHasExpectedItems" finished-at="2023-01-20T23:56:03 CET" duration-ms="216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hamburgerMenuHasExpectedItems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomepageTest@7219ec67]" started-at="2023-01-20T23:56:03 CET" name="tearDown" finished-at="2023-01-20T23:56:04 CET" duration-ms="138" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@7219ec67]" started-at="2023-01-20T23:56:04 CET" name="pageSetUp" finished-at="2023-01-20T23:56:05 CET" duration-ms="964" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="hamburgerMenuIsHidden()[pri:0, instance:Tests.HomepageTest@7219ec67]" started-at="2023-01-20T23:56:05 CET" name="hamburgerMenuIsHidden" finished-at="2023-01-20T23:56:05 CET" duration-ms="234" status="PASS">
+        <test-method signature="hamburgerMenuIsHidden()[pri:10, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:01 CEST" name="hamburgerMenuIsHidden" finished-at="2023-10-16T16:16:01 CEST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hamburgerMenuIsHidden -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomepageTest@7219ec67]" started-at="2023-01-20T23:56:05 CET" name="tearDown" finished-at="2023-01-20T23:56:05 CET" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:01 CEST" name="tearDown" finished-at="2023-10-16T16:16:01 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:01 CEST" name="driverSetUp" finished-at="2023-10-16T16:16:04 CEST" duration-ms="2961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:04 CEST" name="pageSetUp" finished-at="2023-10-16T16:16:04 CEST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="hamburgerMenuHasExpectedItems()[pri:20, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:04 CEST" name="hamburgerMenuHasExpectedItems" finished-at="2023-10-16T16:16:05 CEST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hamburgerMenuHasExpectedItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:05 CEST" name="tearDown" finished-at="2023-10-16T16:16:05 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:05 CEST" name="driverSetUp" finished-at="2023-10-16T16:16:08 CEST" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:08 CEST" name="pageSetUp" finished-at="2023-10-16T16:16:08 CEST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="sortItemsAtoZ()[pri:30, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:08 CEST" name="sortItemsAtoZ" finished-at="2023-10-16T16:16:08 CEST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortItemsAtoZ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:08 CEST" name="tearDown" finished-at="2023-10-16T16:16:08 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:08 CEST" name="driverSetUp" finished-at="2023-10-16T16:16:11 CEST" duration-ms="2996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:11 CEST" name="pageSetUp" finished-at="2023-10-16T16:16:12 CEST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="sortItemsZtoA()[pri:40, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:12 CEST" name="sortItemsZtoA" finished-at="2023-10-16T16:16:12 CEST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortItemsZtoA -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:12 CEST" name="driverSetUp" finished-at="2023-10-16T16:16:15 CEST" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:12 CEST" name="tearDown" finished-at="2023-10-16T16:16:12 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:15 CEST" name="pageSetUp" finished-at="2023-10-16T16:16:15 CEST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="sortPriceHighToLow()[pri:50, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:15 CEST" name="sortPriceHighToLow" finished-at="2023-10-16T16:16:16 CEST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortPriceHighToLow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:16 CEST" name="tearDown" finished-at="2023-10-16T16:16:16 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:16 CEST" name="driverSetUp" finished-at="2023-10-16T16:16:19 CEST" duration-ms="3202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:19 CEST" name="pageSetUp" finished-at="2023-10-16T16:16:19 CEST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="sortPriceLowToHigh()[pri:60, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:19 CEST" name="sortPriceLowToHigh" finished-at="2023-10-16T16:16:19 CEST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomepageTest@4b5d6a01]" started-at="2023-10-16T16:16:19 CEST" name="tearDown" finished-at="2023-10-16T16:16:19 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.HomepageTest -->
-      <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:05 CET" name="setUp" finished-at="2023-01-20T23:56:05 CET" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:05 CET" name="pageSetUp" finished-at="2023-01-20T23:56:07 CET" duration-ms="1624" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCanLogIn()[pri:10, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:07 CET" name="userCanLogIn" finished-at="2023-01-20T23:56:07 CET" duration-ms="284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanLogIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:07 CET" name="tearDown" finished-at="2023-01-20T23:56:07 CET" duration-ms="150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:07 CET" name="pageSetUp" finished-at="2023-01-20T23:56:08 CET" duration-ms="978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsername()[pri:20, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:08 CET" name="userCannotLogInWithInvalidUsername" finished-at="2023-01-20T23:56:08 CET" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCannotLogInWithInvalidUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:08 CET" name="tearDown" finished-at="2023-01-20T23:56:08 CET" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:08 CET" name="pageSetUp" finished-at="2023-01-20T23:56:09 CET" duration-ms="973" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidPassword()[pri:30, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:09 CET" name="userCannotLogInWithInvalidPassword" finished-at="2023-01-20T23:56:09 CET" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCannotLogInWithInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:09 CET" name="tearDown" finished-at="2023-01-20T23:56:10 CET" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:10 CET" name="pageSetUp" finished-at="2023-01-20T23:56:11 CET" duration-ms="960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:11 CET" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-01-20T23:56:11 CET" duration-ms="184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCannotLogInWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:11 CET" name="tearDown" finished-at="2023-01-20T23:56:11 CET" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:11 CET" name="pageSetUp" finished-at="2023-01-20T23:56:12 CET" duration-ms="1590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:12 CET" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-01-20T23:56:13 CET" duration-ms="180" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass_word]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCannotLogInWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:13 CET" name="tearDown" finished-at="2023-01-20T23:56:13 CET" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:13 CET" name="pageSetUp" finished-at="2023-01-20T23:56:14 CET" duration-ms="969" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:14 CET" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-01-20T23:56:14 CET" duration-ms="168" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCannotLogInWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:14 CET" name="tearDown" finished-at="2023-01-20T23:56:14 CET" duration-ms="126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:14 CET" name="pageSetUp" finished-at="2023-01-20T23:56:15 CET" duration-ms="935" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithRandomData()[pri:50, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:15 CET" name="userCannotLogInWithRandomData" finished-at="2023-01-20T23:56:16 CET" duration-ms="1322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCannotLogInWithRandomData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@45018215]" started-at="2023-01-20T23:56:16 CET" name="tearDown" finished-at="2023-01-20T23:56:16 CET" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Tests.LoginTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

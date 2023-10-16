@@ -7,6 +7,7 @@ import Pages.HeaderPage;
 import Pages.HomePage;
 import Pages.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -21,6 +22,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import static Helpers.Data.*;
@@ -91,7 +93,7 @@ public class BaseTest {
     }
 
     public void addAnyItemToCart() {
-        for (int i = 0; i < listOfItems().size(); i++) {
+        for (int i = 0; i < homePage.getAllItemNames().size(); i++) {
             String changedName = getRandomItem().toLowerCase().replaceAll(" ", "-");
             String locator = "add-to-cart-" + changedName;
             boolean found = false;
@@ -105,9 +107,5 @@ public class BaseTest {
                 break;
             }
         }
-
     }
-
-
-
 }

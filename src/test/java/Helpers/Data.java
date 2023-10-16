@@ -24,6 +24,16 @@ public class Data {
         return items;
     }
 
+    ArrayList saveList;
+
+    public ArrayList getSaveList() {
+        return saveList;
+    }
+
+    public void setSaveList(ArrayList saveList) {
+        this.saveList = saveList;
+    }
+
     public static String getRandomItem() {
         return listOfItems().get(new Random().nextInt(listOfItems().size()));
     }
