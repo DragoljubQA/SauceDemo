@@ -112,7 +112,7 @@ public class BaseTest {
 
     @AfterClass
     public void killProcesses() throws IOException {
-        Runtime.getRuntime().exec("end edge processes.bat");
-        Runtime.getRuntime().exec("end edge webdriver processes.bat");
+        Runtime.getRuntime().exec("end-edge-processes.bat");
+        Runtime.getRuntime().exec("end-edge-webdriver-processes.bat");
     }
 }
