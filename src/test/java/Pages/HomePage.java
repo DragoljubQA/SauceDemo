@@ -1,11 +1,12 @@
 package Pages;
 
-import Base.BaseTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class HomePage {
@@ -22,23 +23,21 @@ public class HomePage {
     @FindBy(className = "bm-menu-wrap")
     public WebElement HiddenMenu;
 
-    @FindBy(className = "bm-burger-button")
-    public WebElement OpenHamburgerMenu;
 
-    @FindBy(css = ".bm-item.menu-item")
-    public List<WebElement> HamburgerMenuItems;
+    @FindBy(className = "shopping_cart_badge")
+    public WebElement CartBadge;
 
-    @FindBy(id = "inventory_sidebar_link")
-    public WebElement AllItemsButton;
+    @FindBy(className = "inventory_item_name")
+    public List<WebElement> ItemName;
 
-    @FindBy(id = "about_sidebar_link")
-    public WebElement AboutButton;
+    @FindBy(className = "active_option")
+    public WebElement ActiveSort;
 
-    @FindBy(id = "logout_sidebar_link")
-    public WebElement LogoutButton;
+    @FindBy(className = "product_sort_container")
+    public WebElement Sort;
 
-    @FindBy(id = "reset_sidebar_link")
-    public WebElement ResetButton;
+    @FindBy(className = "inventory_item_price")
+    public List<WebElement> ItemPrice;
 
     //----------------------
 
@@ -46,16 +45,63 @@ public class HomePage {
         CartButton.click();
     }
 
-    public void openHamburgerMenu() {
-        OpenHamburgerMenu.click();
+    public String getBadgeNumber() {
+        return CartBadge.getText();
     }
 
-    public void clickOnAboutButton() {
-        AboutButton.click();
+    public String getActiveSort() {
+        return ActiveSort.getText();
     }
 
-    public void clickOnLogoutButton() {
-        LogoutButton.click();
+    public ArrayList<String> getAllItemNames() {
+        ArrayList<String> elements = new ArrayList<>();
+        for (WebElement webElement : ItemName) {
+            elements.add(webElement.getText());
+        }
+        return elements;
+    }
+
+    public ArrayList<String> getReversedList(ArrayList list) {
+        list.sort(Collections.reverseOrder());
+        return list;
+    }
+
+    public ArrayList<String> getSortedList(ArrayList list) {
+        Collections.sort(list);
+        return list;
+    }
+
+    public ArrayList<Double> getPrices() {
+        ArrayList<Double> doubleList = new ArrayList<Double>();
+        for (int i = 0; i < ItemPrice.size(); i++) {
+            String name = ItemPrice.get(i).getText().replaceAll("\\$", "");
+            double d = Double.parseDouble(name);
+            doubleList.add(d);
+        }
+        return doubleList;
+    }
+
+    public boolean numbersAreSortedHighToLow(String sort, ArrayList<Double> list) throws Exception {
+        switch (sort) {
+            case "lowhigh":
+                for (int i = 0; i < list.size()-1; i++) {
+                if (list.get(i) > list.get(i+1)) {
+                    return false;
+                }
+            }
+                return true;
+
+            case "highlow":
+                for (int i = 0; i < list.size()-1; i++) {
+                    if (list.get(i) < list.get(i+1)) {
+                        return false;
+                    }
+                }
+                return true;
+
+            default: throw new Exception("Wrong sort input. Please provide 'highlow' or 'lowhigh'");
+        }
+
     }
 
 }

@@ -2,9 +2,12 @@ package Base;
 
 import Helpers.Data;
 import Helpers.WebDriverFactory;
+import Pages.CartPage;
+import Pages.HeaderPage;
 import Pages.HomePage;
 import Pages.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,7 +23,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.HashMap;
 
-import static Helpers.Data.LandingURL;
+import static Helpers.Data.*;
 
 public class BaseTest {
     public WebDriver driver;
@@ -29,6 +32,8 @@ public class BaseTest {
     public LoginPage loginPage;
     public HomePage homePage;
     public Data data;
+    public CartPage cartPage;
+    public HeaderPage headerPage;
 
     @BeforeClass
     public void setUp() throws IOException {
@@ -46,13 +51,21 @@ public class BaseTest {
         WebDriverFactory.setupDriver();
         driver = WebDriverFactory.createWebDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
         driver.manage().window().maximize();
+        driver.navigate().to(LandingURL);
+        loginPage = new LoginPage(driver);
     }
 
     @AfterMethod
     public void tearDown() {
         //driver.quit();
+    }
+
+    public void logIn(String username, String password) {
+        loginPage.insertUsername(username);
+        loginPage.insertPassword(password);
+        loginPage.clickOnLoginButton();
     }
 
     public void waitForVisibility(WebElement element) {
@@ -75,6 +88,24 @@ public class BaseTest {
             System.out.println(e);
         }
         return isDisplayed;
+    }
+
+    public void addAnyItemToCart() {
+        for (int i = 0; i < listOfItems().size(); i++) {
+            String changedName = getRandomItem().toLowerCase().replaceAll(" ", "-");
+            String locator = "add-to-cart-" + changedName;
+            boolean found = false;
+            try {
+                found = driver.findElement(By.id(locator)).isDisplayed();
+                driver.findElement(By.id(locator)).click();
+            } catch (Exception e) {
+                System.out.printf(e.toString());
+            }
+            if (found) {
+                break;
+            }
+        }
+
     }
 
 

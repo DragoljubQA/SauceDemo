@@ -12,9 +12,8 @@ public enum Inventory {
 
     public static String getRandom() {
         String random = values()[new Random().nextInt(values().length)].name();
-        String newString = random.replaceAll("__", "-");
-        String newString1 = newString.replaceAll("_", " ");
-        return newString1;
+        String originalString = random.replaceAll("__", "-");
+        return originalString.replaceAll("_", " ");
     }
 
 }

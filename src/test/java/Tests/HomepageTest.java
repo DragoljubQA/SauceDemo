@@ -1,53 +1,76 @@
 package Tests;
 
 import Base.BaseTest;
+import Pages.HeaderPage;
 import Pages.HomePage;
-import Pages.LoginPage;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
 
 import static Helpers.Data.*;
 
 public class HomepageTest extends BaseTest {
+    Select select;
 
     @BeforeMethod
     public void pageSetUp() {
-        driver.navigate().to(LandingURL);
-        loginPage = new LoginPage(driver);
         homePage = new HomePage(driver);
-    }
-
-    public void logIn(String username, String password) {
-        loginPage.insertUsername(username);
-        loginPage.insertPassword(password);
-        loginPage.clickOnLoginButton();
+        headerPage = new HeaderPage(driver);
+        logIn(validUsername, validPassword);
+        select = new Select(homePage.Sort);
     }
 
     @Test
     public void hamburgerMenuIsHidden() {
-        logIn(validUsername, validPassword);
         Assert.assertEquals(homePage.HiddenMenu.getAttribute("aria-hidden"), "true");
     }
 
     @Test
     public void hamburgerMenuHasExpectedItems() {
-        logIn(validUsername, validPassword);
-        Assert.assertEquals(homePage.HamburgerMenuItems.size(), 4);
-        homePage.openHamburgerMenu();
-        waitForVisibility(homePage.AllItemsButton);
-        Assert.assertEquals(homePage.AllItemsButton.getText(), "All Items");
-        Assert.assertEquals(homePage.AboutButton.getText(), "About");
-        Assert.assertEquals(homePage.LogoutButton.getText(), "Logout");
-        Assert.assertEquals(homePage.ResetButton.getText(), "Reset App State");
+        Assert.assertEquals(headerPage.HamburgerMenuItems.size(), 4);
+        headerPage.openHamburgerMenu();
+        waitForVisibility(headerPage.AllItemsButton);
+        Assert.assertEquals(headerPage.AllItemsButton.getText(), "All Items");
+        Assert.assertEquals(headerPage.AboutButton.getText(), "About");
+        Assert.assertEquals(headerPage.LogoutButton.getText(), "Logout");
+        Assert.assertEquals(headerPage.ResetButton.getText(), "Reset App State");
     }
+
+    @Test
+    public void sortItemsAtoZ() {
+        Assert.assertEquals(homePage.getActiveSort(), "Name (A to Z)");
+        Assert.assertEquals(homePage.getAllItemNames(), listOfItems());
+        select.selectByValue("az");
+        Assert.assertEquals(homePage.getActiveSort(), "Name (A to Z)");
+        Assert.assertEquals(homePage.getAllItemNames(), homePage.getReversedList(listOfItems()));
+    }
+
+    @Test
+    public void sortItemsZtoA() {
+        Assert.assertEquals(homePage.getActiveSort(), "Name (A to Z)");
+        Assert.assertEquals(homePage.getAllItemNames(), listOfItems());
+        select.selectByValue("za");
+        Assert.assertEquals(homePage.getActiveSort(), "Name (Z to A)");
+        Assert.assertEquals(homePage.getAllItemNames(), homePage.getReversedList(listOfItems()));
+    }
+
+    @Test
+    public void sortPriceHighToLow() throws Exception {
+        select.selectByValue("hilo");
+        Assert.assertTrue(homePage.numbersAreSortedHighToLow("highlow",homePage.getPrices()));
+    }
+
+    @Test
+    public void sortPriceLowToHigh() throws Exception {
+        select.selectByValue("lohi");
+        Assert.assertTrue(homePage.numbersAreSortedHighToLow("lowhigh",homePage.getPrices()));
+    }
+
+
 
 
 }

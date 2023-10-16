@@ -3,6 +3,9 @@ package Helpers;
 import com.github.javafaker.Faker;
 import org.testng.annotations.DataProvider;
 
+import java.util.ArrayList;
+import java.util.Random;
+
 import static Base.BaseTest.excelReader;
 
 public class Data {
@@ -10,6 +13,21 @@ public class Data {
     public static final String HomeURL = excelReader.getStringData("URL", 1, 1);
     public static final String validUsername = excelReader.getStringData("Login", 1, 0);
     public static final String validPassword = excelReader.getStringData("Login", 1, 1);
+    public static ArrayList<String> listOfItems() {
+        ArrayList<String> items = new ArrayList<>();
+        items.add("Sauce Labs Backpack");
+        items.add("Sauce Labs Bike Light");
+        items.add("Sauce Labs Bolt T-Shirt");
+        items.add("Sauce Labs Fleece Jacket");
+        items.add("Sauce Labs Onesie");
+        items.add("Test.allTheThings() T-Shirt (Red)");
+        return items;
+    }
+
+    public static String getRandomItem() {
+        return listOfItems().get(new Random().nextInt(listOfItems().size()));
+    }
+
     static Faker faker = new Faker();
     public static String fakerUsername() {
         return faker.name().username();

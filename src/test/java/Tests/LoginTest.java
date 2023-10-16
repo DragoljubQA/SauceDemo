@@ -1,20 +1,12 @@
 package Tests;
 
 import Base.BaseTest;
-import Helpers.WebDriverFactory;
+import Pages.HeaderPage;
 import Pages.HomePage;
 import Pages.LoginPage;
-import com.github.javafaker.Faker;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.time.Duration;
 
 import static Helpers.Data.*;
 import Helpers.Data;
@@ -23,16 +15,10 @@ public class LoginTest extends BaseTest {
 
     @BeforeMethod
     public void pageSetUp() {
-        driver.navigate().to(LandingURL);
         loginPage = new LoginPage(driver);
         homePage = new HomePage(driver);
+        headerPage = new HeaderPage(driver);
         data = new Data();
-    }
-
-    public void logIn(String username, String password) {
-        loginPage.insertUsername(username);
-        loginPage.insertPassword(password);
-        loginPage.clickOnLoginButton();
     }
 
     @Test (priority = 10)
@@ -46,13 +32,12 @@ public class LoginTest extends BaseTest {
     @Test (priority = 15)
     public void userCanLogOut() {
         logIn(validUsername, validPassword);
-        homePage.openHamburgerMenu();
-        homePage.clickOnLogoutButton();
+        headerPage.openHamburgerMenu();
+        headerPage.clickOnLogoutButton();
         Assert.assertFalse(elementIsDisplayed(homePage.CartButton));
         Assert.assertEquals(driver.getCurrentUrl(), LandingURL);
         Assert.assertTrue(loginPage.LoginButton.isDisplayed());
     }
-
 
     @Test (priority = 20)
     public void userCannotLogInWithInvalidUsername() {
