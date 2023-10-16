@@ -16,6 +16,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -57,11 +58,6 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.navigate().to(LandingURL);
         loginPage = new LoginPage(driver);
-    }
-
-    @AfterMethod
-    public void tearDown() {
-        //driver.quit();
     }
 
     public void logIn(String username, String password) {
@@ -107,5 +103,16 @@ public class BaseTest {
                 break;
             }
         }
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        //driver.quit();
+    }
+
+    @AfterClass
+    public void killProcesses() throws IOException {
+        Runtime.getRuntime().exec("end edge processes.bat");
+        Runtime.getRuntime().exec("end edge webdriver processes.bat");
     }
 }

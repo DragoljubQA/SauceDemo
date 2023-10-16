@@ -67,6 +67,13 @@ public class HomepageTest extends BaseTest {
         Assert.assertTrue(homePage.numbersAreSortedHighToLow("lowhigh",homePage.getPrices()));
     }
 
+    @Test(priority = 70)
+    public void aboutPageCanBeOpened() {
+        headerPage.openHamburgerMenu();
+        headerPage.clickOnAboutButton();
+        Assert.assertEquals(driver.getTitle(), "Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing");
+    }
+
 
 
 
