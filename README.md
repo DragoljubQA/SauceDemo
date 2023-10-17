@@ -44,3 +44,4 @@ FIles:
 * TestData.xlsx - Excel file used to read some data for DDT as an alternative
 * testng.xml - Basic xml file to run all test classes
 * testngParallel.xml - File used to run parallel tests by classes
+* .gitignore - File used to store all items that are not pushed to github
