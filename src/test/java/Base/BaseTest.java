@@ -2,10 +2,7 @@ package Base;
 
 import Helpers.Data;
 import Helpers.WebDriverFactory;
-import Pages.CartPage;
-import Pages.HeaderPage;
-import Pages.HomePage;
-import Pages.LoginPage;
+import Pages.*;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,12 +12,14 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.asserts.SoftAssert;
 
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
 import static Helpers.Data.*;
+import static Helpers.URLs.LOGINURL;
 
 public class BaseTest {
     public WebDriver driver;
@@ -31,10 +30,15 @@ public class BaseTest {
     public Data data;
     public CartPage cartPage;
     public HeaderPage headerPage;
+    public CheckoutPage checkoutPage;
+    public PaymentPage paymentPage;
+    public ThankYouPage thankYouPage;
+    public SoftAssert softAssert;
 
     @BeforeClass
     public void setUp() throws IOException {
         excelReader = new ExcelReader("TestData.xlsx");
+        softAssert = new SoftAssert();
     }
 
     @BeforeMethod
@@ -50,7 +54,7 @@ public class BaseTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
         driver.manage().window().maximize();
-        driver.navigate().to(LandingURL);
+        driver.navigate().to(LOGINURL);
         loginPage = new LoginPage(driver);
     }
 
@@ -101,17 +105,18 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown(ITestResult result) throws IOException {
+        softAssert.assertAll();
         if (result.getStatus() == ITestResult.FAILURE || result.getStatus() == ITestResult.SKIP){
             File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             File savedScreenshot = new File("target/screenshots/"+System.currentTimeMillis()+".jpg");
             FileUtils.copyFile(screenshot, savedScreenshot);
         }
-        driver.quit();
+        //driver.quit();
     }
 
     @AfterClass
     public void killProcesses() throws IOException {
-        Runtime.getRuntime().exec("end-edge-processes.bat");
-        Runtime.getRuntime().exec("end-edge-webdriver-processes.bat");
+        //Runtime.getRuntime().exec("end-edge-processes.bat");
+        //Runtime.getRuntime().exec("end-edge-webdriver-processes.bat");
     }
 }

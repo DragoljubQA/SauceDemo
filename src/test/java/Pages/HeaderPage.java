@@ -31,7 +31,15 @@ public class HeaderPage {
     @FindBy(id = "reset_sidebar_link")
     public WebElement ResetButton;
 
+    @FindBy(className = "shopping_cart_badge")
+    public WebElement CartBadge;
+
     //--------------------------------
+
+    public String getBadgeNumber() {
+        return CartBadge.getText();
+    }
+
 
     public void openHamburgerMenu() {
         OpenHamburgerMenu.click();

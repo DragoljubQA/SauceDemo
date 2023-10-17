@@ -23,10 +23,6 @@ public class HomePage {
     @FindBy(className = "bm-menu-wrap")
     public WebElement HiddenMenu;
 
-
-    @FindBy(className = "shopping_cart_badge")
-    public WebElement CartBadge;
-
     @FindBy(className = "inventory_item_name")
     public List<WebElement> ItemName;
 
@@ -43,10 +39,6 @@ public class HomePage {
 
     public void clickOnCartButton() {
         CartButton.click();
-    }
-
-    public String getBadgeNumber() {
-        return CartBadge.getText();
     }
 
     public String getActiveSort() {

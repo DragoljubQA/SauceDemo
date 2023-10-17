@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static Helpers.Data.*;
+import static Helpers.URLs.HOMEPAGEURL;
+import static Helpers.URLs.LOGINURL;
 
 public class HomepageTest extends BaseTest {
     Select select;
@@ -37,6 +39,7 @@ public class HomepageTest extends BaseTest {
         Assert.assertEquals(headerPage.AboutButton.getText(), "About");
         Assert.assertEquals(headerPage.LogoutButton.getText(), "Logout");
         Assert.assertEquals(headerPage.ResetButton.getText(), "Reset App State");
+        Assert.assertEquals(driver.getCurrentUrl(), HOMEPAGEURL);
     }
 
     @Test(priority = 30)
@@ -45,6 +48,7 @@ public class HomepageTest extends BaseTest {
         select.selectByValue("az");
         Assert.assertEquals(homePage.getActiveSort(), "Name (A to Z)");
         Assert.assertEquals(homePage.getAllItemNames(), homePage.getSortedList(data.getSaveList()));
+        Assert.assertEquals(driver.getCurrentUrl(), HOMEPAGEURL);
     }
 
     @Test(priority = 40)
@@ -53,18 +57,21 @@ public class HomepageTest extends BaseTest {
         select.selectByValue("za");
         Assert.assertEquals(homePage.getActiveSort(), "Name (Z to A)");
         Assert.assertEquals(homePage.getAllItemNames(), homePage.getReversedList(data.getSaveList()));
+        Assert.assertEquals(driver.getCurrentUrl(), HOMEPAGEURL);
     }
 
     @Test(priority = 50)
     public void sortPriceHighToLow() throws Exception {
         select.selectByValue("hilo");
         Assert.assertTrue(homePage.numbersAreSortedHighToLow("highlow",homePage.getPrices()));
+        Assert.assertEquals(driver.getCurrentUrl(), HOMEPAGEURL);
     }
 
     @Test(priority = 60)
     public void sortPriceLowToHigh() throws Exception {
         select.selectByValue("lohi");
         Assert.assertTrue(homePage.numbersAreSortedHighToLow("lowhigh",homePage.getPrices()));
+        Assert.assertEquals(driver.getCurrentUrl(), HOMEPAGEURL);
     }
 
     @Test(priority = 70)
@@ -72,6 +79,7 @@ public class HomepageTest extends BaseTest {
         headerPage.openHamburgerMenu();
         headerPage.clickOnAboutButton();
         Assert.assertEquals(driver.getTitle(), "Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing");
+        Assert.assertEquals(driver.getCurrentUrl(), LOGINURL);
     }
 
 

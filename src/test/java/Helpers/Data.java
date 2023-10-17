@@ -9,8 +9,6 @@ import java.util.Random;
 import static Base.BaseTest.excelReader;
 
 public class Data {
-    public static final String LandingURL = excelReader.getStringData("URL", 1, 0);
-    public static final String HomeURL = excelReader.getStringData("URL", 1, 1);
     public static final String validUsername = excelReader.getStringData("Login", 1, 0);
     public static final String validPassword = excelReader.getStringData("Login", 1, 1);
     public static ArrayList<String> listOfItems() {
@@ -45,6 +43,18 @@ public class Data {
 
     public static String fakerPassword() {
         return faker.internet().password(6,10, true);
+    }
+
+    public static String fakerFirstName() {
+        return faker.name().firstName();
+    }
+
+    public static String fakerLastName() {
+        return faker.name().lastName();
+    }
+
+    public static String fakerPostalCode() {
+        return faker.address().zipCode();
     }
 
     @DataProvider(name = "usernameAndPassword")
