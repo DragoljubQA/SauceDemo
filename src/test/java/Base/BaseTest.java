@@ -5,8 +5,6 @@ import Helpers.WebDriverFactory;
 import Pages.*;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.remote.http.ClientConfig;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -49,7 +47,7 @@ public class BaseTest {
         options.addArguments("--headless");
         driver = new ChromeDriver(options);*/
         //System.setProperty("browser", "firefox");
-        //System.setProperty("browser", "edge");
+        System.setProperty("browser", "edge");
         //System.setProperty("browser", "safari");
         WebDriverFactory.setupDriver();
         driver = WebDriverFactory.createWebDriver();

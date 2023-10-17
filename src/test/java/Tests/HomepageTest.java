@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import static Helpers.Data.*;
 import static Helpers.URLs.*;
 
-
 public class HomepageTest extends BaseTest {
     Select select;
 

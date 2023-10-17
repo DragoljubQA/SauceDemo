@@ -7,7 +7,6 @@ import Pages.HomePage;
 import Pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static Helpers.Data.*;
