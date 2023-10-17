@@ -3,9 +3,9 @@
 SauceDemo is a website for testing purposes where the main goal is to add items to cart and finish shopping
 
 ## Dependencies
-Run on Windows 10 OS
-IDE for this project is IntelliJ Idea Community Edition 2023.2.2
-Browsers needed is Chrome as mandatory but also preferred are Firefox, Edge and Safari
+* Run on Windows 10 OS
+* IDE for this project is IntelliJ Idea Community Edition 2023.2.2
+* Browsers needed is Chrome as mandatory but also preferred are Firefox, Edge and Safari
 
 ## Instalation
 
@@ -14,8 +14,8 @@ Open terminal in IDE and git clone the repository
 ```
 git clone https://github.com/DragoljubQA/SauceDemo.git
 ```
-java version "21" 2023-09-19 LTS
-Apache Maven 3.9.5
+* java version "21" 2023-09-19 LTS
+* Apache Maven 3.9.5
 
 ## Executing program
 Run all tests from terminal with: 
