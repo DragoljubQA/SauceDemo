@@ -8,36 +8,344 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">26</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">88,072</td><td></td><td></td></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">Sequence Tests</a></td><td class="num">15</td><td class="num attn">11</td><td class="num">0</td><td class="num">0</td><td class="num">83,527</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">Tests.CartTest</td><td><a href="#m0">addItemToCart</a></td><td rowspan="1">1697545523557</td><td rowspan="1">1196</td></tr><tr class="passedeven"><td><a href="#m1">itemCanBeRemovedFromCart</a></td><td rowspan="1">1697545527662</td><td rowspan="1">4241</td></tr><tr class="passedeven"><td><a href="#m2">multipleItemsCaneBeAddedToCart</a></td><td rowspan="1">1697545536064</td><td rowspan="1">1339</td></tr><tr class="passedeven"><td><a href="#m3">userCanContinueShopping</a></td><td rowspan="1">1697545540275</td><td rowspan="1">278</td></tr><tr class="passedodd"><td rowspan="4">Tests.CheckoutTest</td><td><a href="#m4">allFieldsAreMandatory</a></td><td rowspan="1">1697545544810</td><td rowspan="1">231</td></tr><tr class="passedodd"><td><a href="#m5">firstNameIsMandatory</a></td><td rowspan="1">1697545546737</td><td rowspan="1">468</td></tr><tr class="passedodd"><td><a href="#m6">lastNameIsMandatory</a></td><td rowspan="1">1697545548862</td><td rowspan="1">352</td></tr><tr class="passedodd"><td><a href="#m7">zipCodeIsMandatory</a></td><td rowspan="1">1697545551237</td><td rowspan="1">349</td></tr><tr class="passedeven"><td rowspan="2">Tests.EndToEndTest</td><td><a href="#m8">itemCanBeBought</a></td><td rowspan="1">1697545553280</td><td rowspan="1">1481</td></tr><tr class="passedeven"><td><a href="#m9">userCanGoToHomepageAfterShopping</a></td><td rowspan="1">1697545556744</td><td rowspan="1">451</td></tr><tr class="passedodd"><td rowspan="7">Tests.HomepageTest</td><td><a href="#m10">aboutPageCanBeOpened</a></td><td rowspan="1">1697545570982</td><td rowspan="1">2462</td></tr><tr class="passedodd"><td><a href="#m11">hamburgerMenuHasExpectedItems</a></td><td rowspan="1">1697545560674</td><td rowspan="1">637</td></tr><tr class="passedodd"><td><a href="#m12">hamburgerMenuIsHidden</a></td><td rowspan="1">1697545558887</td><td rowspan="1">22</td></tr><tr class="passedodd"><td><a href="#m13">sortItemsAtoZ</a></td><td rowspan="1">1697545563486</td><td rowspan="1">106</td></tr><tr class="passedodd"><td><a href="#m14">sortItemsZtoA</a></td><td rowspan="1">1697545565241</td><td rowspan="1">139</td></tr><tr class="passedodd"><td><a href="#m15">sortPriceHighToLow</a></td><td rowspan="1">1697545567098</td><td rowspan="1">134</td></tr><tr class="passedodd"><td><a href="#m16">sortPriceLowToHigh</a></td><td rowspan="1">1697545569255</td><td rowspan="1">141</td></tr><tr class="passedeven"><td rowspan="9">Tests.LoginTest</td><td><a href="#m17">userCanLogIn</a></td><td rowspan="1">1697545575201</td><td rowspan="1">268</td></tr><tr class="passedeven"><td><a href="#m18">userCanLogOut</a></td><td rowspan="1">1697545576912</td><td rowspan="1">1368</td></tr><tr class="passedeven"><td><a href="#m19">userCannotLogInWithInvalidPassword</a></td><td rowspan="1">1697545582668</td><td rowspan="1">1204</td></tr><tr class="passedeven"><td><a href="#m20">userCannotLogInWithInvalidUsername</a></td><td rowspan="1">1697545579658</td><td rowspan="1">1191</td></tr><tr class="passedeven"><td><a href="#m21">userCannotLogInWithInvalidUsernameAndPassword</a></td><td rowspan="4">1697545594088</td><td rowspan="4">1240</td></tr><tr class="passedeven"><td><a href="#m22">userCannotLogInWithInvalidUsernameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m23">userCannotLogInWithInvalidUsernameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m24">userCannotLogInWithInvalidUsernameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m25">userCannotLogInWithRandomData</a></td><td rowspan="1">1697545596728</td><td rowspan="1">12109</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sequence Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Tests.CheckoutTest</td><td><a href="#m0">driverSetUp</a></td><td rowspan="1">1697552552379</td><td rowspan="1">136</td></tr><tr class="failedodd"><td rowspan="1">Tests.HomepageTest</td><td><a href="#m1">driverSetUp</a></td><td rowspan="1">1697552525530</td><td rowspan="1">208</td></tr><tr><th colspan="4">Sequence Tests &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="12">Tests.CheckoutTest</td><td><a href="#m2">driverSetUp</a></td><td rowspan="3">1697552552518</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m3">driverSetUp</a></td></tr><tr class="skippedeven"><td><a href="#m4">driverSetUp</a></td></tr><tr class="skippedeven"><td><a href="#m5">killProcesses</a></td><td rowspan="1">1697552552519</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">pageSetUp</a></td><td rowspan="4">1697552552516</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m7">pageSetUp</a></td></tr><tr class="skippedeven"><td><a href="#m8">pageSetUp</a></td></tr><tr class="skippedeven"><td><a href="#m9">pageSetUp</a></td></tr><tr class="skippedeven"><td><a href="#m10">tearDown</a></td><td rowspan="4">1697552552518</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m11">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m12">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m13">tearDown</a></td></tr><tr class="skippedodd"><td rowspan="21">Tests.HomepageTest</td><td><a href="#m14">driverSetUp</a></td><td rowspan="6">1697552525749</td><td rowspan="6">0</td></tr><tr class="skippedodd"><td><a href="#m15">driverSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m16">driverSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m17">driverSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m18">driverSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m19">driverSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m20">killProcesses</a></td><td rowspan="1">1697552525752</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m21">pageSetUp</a></td><td rowspan="7">1697552525752</td><td rowspan="7">0</td></tr><tr class="skippedodd"><td><a href="#m22">pageSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m23">pageSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m24">pageSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m25">pageSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m26">pageSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m27">pageSetUp</a></td></tr><tr class="skippedodd"><td><a href="#m28">tearDown</a></td><td rowspan="7">1697552525748</td><td rowspan="7">0</td></tr><tr class="skippedodd"><td><a href="#m29">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m30">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m31">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m32">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m33">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m34">tearDown</a></td></tr><tr><th colspan="4">Sequence Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">Tests.CheckoutTest</td><td><a href="#m35">allFieldsAreMandatory</a></td><td rowspan="1">1697552552516</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m36">firstNameIsMandatory</a></td><td rowspan="1">1697552552517</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m37">lastNameIsMandatory</a></td><td rowspan="1">1697552552517</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m38">zipCodeIsMandatory</a></td><td rowspan="1">1697552552519</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="7">Tests.HomepageTest</td><td><a href="#m39">aboutPageCanBeOpened</a></td><td rowspan="1">1697552525752</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m40">hamburgerMenuHasExpectedItems</a></td><td rowspan="1">1697552525748</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m41">hamburgerMenuIsHidden</a></td><td rowspan="1">1697552525746</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m42">sortItemsAtoZ</a></td><td rowspan="1">1697552525749</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m43">sortItemsZtoA</a></td><td rowspan="1">1697552525750</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m44">sortPriceHighToLow</a></td><td rowspan="1">1697552525751</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m45">sortPriceLowToHigh</a></td><td rowspan="1">1697552525751</td><td rowspan="1">0</td></tr><tr><th colspan="4">Sequence Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">Tests.CartTest</td><td><a href="#m46">addItemToCart</a></td><td rowspan="1">1697552527329</td><td rowspan="1">1210</td></tr><tr class="passedeven"><td><a href="#m47">itemCanBeRemovedFromCart</a></td><td rowspan="1">1697552533233</td><td rowspan="1">4289</td></tr><tr class="passedeven"><td><a href="#m48">multipleItemsCaneBeAddedToCart</a></td><td rowspan="1">1697552542870</td><td rowspan="1">2379</td></tr><tr class="passedeven"><td><a href="#m49">userCanContinueShopping</a></td><td rowspan="1">1697552549947</td><td rowspan="1">294</td></tr><tr class="passedodd"><td rowspan="2">Tests.EndToEndTest</td><td><a href="#m50">itemCanBeBought</a></td><td rowspan="1">1697552554091</td><td rowspan="1">1578</td></tr><tr class="passedodd"><td><a href="#m51">userCanGoToHomepageAfterShopping</a></td><td rowspan="1">1697552559349</td><td rowspan="1">495</td></tr><tr class="passedeven"><td rowspan="9">Tests.LoginTest</td><td><a href="#m52">userCanLogIn</a></td><td rowspan="1">1697552478924</td><td rowspan="1">279</td></tr><tr class="passedeven"><td><a href="#m53">userCanLogOut</a></td><td rowspan="1">1697552482261</td><td rowspan="1">1479</td></tr><tr class="passedeven"><td><a href="#m54">userCannotLogInWithInvalidPassword</a></td><td rowspan="1">1697552491333</td><td rowspan="1">1219</td></tr><tr class="passedeven"><td><a href="#m55">userCannotLogInWithInvalidUsername</a></td><td rowspan="1">1697552487132</td><td rowspan="1">1225</td></tr><tr class="passedeven"><td><a href="#m56">userCannotLogInWithInvalidUsernameAndPassword</a></td><td rowspan="4">1697552500077</td><td rowspan="4">1264</td></tr><tr class="passedeven"><td><a href="#m57">userCannotLogInWithInvalidUsernameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m58">userCannotLogInWithInvalidUsernameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m59">userCannotLogInWithInvalidUsernameAndPassword</a></td></tr><tr class="passedeven"><td><a href="#m60">userCannotLogInWithRandomData</a></td><td rowspan="1">1697552513466</td><td rowspan="1">12022</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">Tests.CartTest#addItemToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Tests.CartTest#itemCanBeRemovedFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Tests.CartTest#multipleItemsCaneBeAddedToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Tests.CartTest#userCanContinueShopping</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Tests.CheckoutTest#allFieldsAreMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Tests.CheckoutTest#firstNameIsMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">Tests.CheckoutTest#lastNameIsMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">Tests.CheckoutTest#zipCodeIsMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">Tests.EndToEndTest#itemCanBeBought</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">Tests.EndToEndTest#userCanGoToHomepageAfterShopping</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">Tests.HomepageTest#aboutPageCanBeOpened</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">Tests.HomepageTest#hamburgerMenuHasExpectedItems</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">Tests.HomepageTest#hamburgerMenuIsHidden</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">Tests.HomepageTest#sortItemsAtoZ</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">Tests.HomepageTest#sortItemsZtoA</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">Tests.HomepageTest#sortPriceHighToLow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">Tests.HomepageTest#sortPriceLowToHigh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">Tests.LoginTest#userCanLogIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m18">Tests.LoginTest#userCanLogOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m19">Tests.LoginTest#userCannotLogInWithInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">Tests.LoginTest#userCannotLogInWithInvalidUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">Tests.LoginTest#userCannotLogInWithInvalidUsernameAndPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user 1</td><td>password1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m22">Tests.LoginTest#userCannotLogInWithInvalidUsernameAndPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>username</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m23">Tests.LoginTest#userCannotLogInWithInvalidUsernameAndPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>standard</td><td>pass_word</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m24">Tests.LoginTest#userCannotLogInWithInvalidUsernameAndPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user</td><td>pass</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m25">Tests.LoginTest#userCannotLogInWithRandomData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sequence Tests</h2><h3 id="m0">Tests.CheckoutTest#driverSetUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Tests.HomepageTest#driverSetUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Tests.CheckoutTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Tests.CheckoutTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Tests.CheckoutTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Tests.CheckoutTest#killProcesses</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Tests.CheckoutTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Tests.CheckoutTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Tests.CheckoutTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Tests.CheckoutTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Tests.CheckoutTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Tests.CheckoutTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Tests.CheckoutTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Tests.CheckoutTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Tests.HomepageTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Tests.HomepageTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">Tests.HomepageTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">Tests.HomepageTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">Tests.HomepageTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">Tests.HomepageTest#driverSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">Tests.HomepageTest#killProcesses</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">Tests.HomepageTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">Tests.HomepageTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">Tests.HomepageTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">Tests.HomepageTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">Tests.HomepageTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">Tests.HomepageTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">Tests.HomepageTest#pageSetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">Tests.HomepageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">Tests.HomepageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">Tests.HomepageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">Tests.HomepageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">Tests.HomepageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">Tests.HomepageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">Tests.HomepageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">Tests.CheckoutTest#allFieldsAreMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">Tests.CheckoutTest#firstNameIsMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">Tests.CheckoutTest#lastNameIsMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">Tests.CheckoutTest#zipCodeIsMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">Tests.HomepageTest#aboutPageCanBeOpened</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">Tests.HomepageTest#hamburgerMenuHasExpectedItems</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">Tests.HomepageTest#hamburgerMenuIsHidden</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">Tests.HomepageTest#sortItemsAtoZ</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">Tests.HomepageTest#sortItemsZtoA</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">Tests.HomepageTest#sortPriceHighToLow</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">Tests.HomepageTest#sortPriceLowToHigh</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;CLVITN-28FQFX3&apos;, ip: &apos;10.216.30.167&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+	at Base.BaseTest.driverSetUp(BaseTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 42 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">Tests.CartTest#addItemToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">Tests.CartTest#itemCanBeRemovedFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">Tests.CartTest#multipleItemsCaneBeAddedToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">Tests.CartTest#userCanContinueShopping</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m50">Tests.EndToEndTest#itemCanBeBought</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m51">Tests.EndToEndTest#userCanGoToHomepageAfterShopping</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m52">Tests.LoginTest#userCanLogIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m53">Tests.LoginTest#userCanLogOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m54">Tests.LoginTest#userCannotLogInWithInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m55">Tests.LoginTest#userCannotLogInWithInvalidUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m56">Tests.LoginTest#userCannotLogInWithInvalidUsernameAndPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>standard</td><td>pass_word</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m57">Tests.LoginTest#userCannotLogInWithInvalidUsernameAndPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user</td><td>pass</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m58">Tests.LoginTest#userCannotLogInWithInvalidUsernameAndPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>username</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m59">Tests.LoginTest#userCannotLogInWithInvalidUsernameAndPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user 1</td><td>password1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m60">Tests.LoginTest#userCannotLogInWithRandomData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -47,7 +47,7 @@ public class BaseTest {
         options.addArguments("--headless");
         driver = new ChromeDriver(options);*/
         //System.setProperty("browser", "firefox");
-        System.setProperty("browser", "edge");
+        //System.setProperty("browser", "edge");
         //System.setProperty("browser", "safari");
         WebDriverFactory.setupDriver();
         driver = WebDriverFactory.createWebDriver();
@@ -112,7 +112,7 @@ public class BaseTest {
             File savedScreenshot = new File("target/screenshots/"+System.currentTimeMillis()+".jpg");
             FileUtils.copyFile(screenshot, savedScreenshot);
         }
-        //driver.quit();
+        driver.quit();
     }
 
     @AfterClass

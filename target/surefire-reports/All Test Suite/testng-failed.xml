@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Surefire suite]" verbose="0">
-  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Base.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Sequence Tests(failed)" verbose="0">
     <classes>
       <class name="Tests.HomepageTest">
         <methods>
           <include name="killProcesses"/>
           <include name="sortItemsZtoA"/>
           <include name="sortPriceLowToHigh"/>
-          <include name="driverSetUp"/>
           <include name="hamburgerMenuIsHidden"/>
+          <include name="driverSetUp"/>
           <include name="hamburgerMenuHasExpectedItems"/>
           <include name="sortPriceHighToLow"/>
           <include name="sortItemsAtoZ"/>
@@ -23,8 +26,8 @@
         <methods>
           <include name="killProcesses"/>
           <include name="zipCodeIsMandatory"/>
-          <include name="firstNameIsMandatory"/>
           <include name="driverSetUp"/>
+          <include name="firstNameIsMandatory"/>
           <include name="lastNameIsMandatory"/>
           <include name="pageSetUp"/>
           <include name="allFieldsAreMandatory"/>
@@ -33,5 +36,5 @@
         </methods>
       </class> <!-- Tests.CheckoutTest -->
     </classes>
-  </test> <!-- Surefire test(failed) -->
-</suite> <!-- Failed suite [Surefire suite] -->
+  </test> <!-- Sequence Tests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

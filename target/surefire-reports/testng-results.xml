@@ -1,504 +1,1237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+<testng-results ignored="0" total="26" passed="15" failed="0" skipped="11">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-17T14:25:20 CEST" name="Surefire suite" finished-at="2023-10-17T14:26:48 CEST" duration-ms="88072">
+  <suite started-at="2023-10-17T16:21:16 CEST" name="All Test Suite" finished-at="2023-10-17T16:22:39 CEST" duration-ms="83527">
     <groups>
     </groups>
-    <test started-at="2023-10-17T14:25:20 CEST" name="Surefire test" finished-at="2023-10-17T14:26:48 CEST" duration-ms="88072">
+    <test started-at="2023-10-17T16:21:16 CEST" name="Sequence Tests" finished-at="2023-10-17T16:22:39 CEST" duration-ms="83527">
       <class name="Tests.CartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:20 CEST" name="setUp" finished-at="2023-10-17T14:25:21 CEST" duration-ms="379" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:05 CEST" name="setUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:21 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:23 CEST" duration-ms="2034" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:05 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:07 CEST" duration-ms="1307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:23 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:23 CEST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:07 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:07 CEST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="addItemToCart()[pri:10, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:23 CEST" name="addItemToCart" finished-at="2023-10-17T14:25:24 CEST" duration-ms="1196" status="PASS">
+        <test-method signature="addItemToCart()[pri:10, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:07 CEST" name="addItemToCart" finished-at="2023-10-17T16:22:08 CEST" duration-ms="1210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemToCart -->
-        <test-method is-config="true" signature="clearCart()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:24 CEST" name="clearCart" finished-at="2023-10-17T14:25:25 CEST" duration-ms="1092" status="PASS">
+        <test-method is-config="true" signature="clearCart()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:08 CEST" name="clearCart" finished-at="2023-10-17T16:22:09 CEST" duration-ms="1078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:25 CEST" name="tearDown" finished-at="2023-10-17T14:25:25 CEST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:09 CEST" name="tearDown" finished-at="2023-10-17T16:22:09 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addItemToCart status=SUCCESS method=CartTest.addItemToCart()[pri:10, instance:Tests.CartTest@48ae9b55] output={null}]]]>
+                <![CDATA[[TestResult name=addItemToCart status=SUCCESS method=CartTest.addItemToCart()[pri:10, instance:Tests.CartTest@63021689] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:25 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:27 CEST" duration-ms="1485" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:09 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:13 CEST" duration-ms="3386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:27 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:27 CEST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:13 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:13 CEST" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="itemCanBeRemovedFromCart()[pri:20, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:27 CEST" name="itemCanBeRemovedFromCart" finished-at="2023-10-17T14:25:31 CEST" duration-ms="4241" status="PASS">
+        <test-method signature="itemCanBeRemovedFromCart()[pri:20, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:13 CEST" name="itemCanBeRemovedFromCart" finished-at="2023-10-17T16:22:17 CEST" duration-ms="4289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- itemCanBeRemovedFromCart -->
-        <test-method is-config="true" signature="clearCart()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:31 CEST" name="clearCart" finished-at="2023-10-17T14:25:33 CEST" duration-ms="2056" status="PASS">
+        <test-method is-config="true" signature="clearCart()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:17 CEST" name="clearCart" finished-at="2023-10-17T16:22:19 CEST" duration-ms="2056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:33 CEST" name="tearDown" finished-at="2023-10-17T14:25:34 CEST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:19 CEST" name="tearDown" finished-at="2023-10-17T16:22:19 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=itemCanBeRemovedFromCart status=SUCCESS method=CartTest.itemCanBeRemovedFromCart()[pri:20, instance:Tests.CartTest@48ae9b55] output={null}]]]>
+                <![CDATA[[TestResult name=itemCanBeRemovedFromCart status=SUCCESS method=CartTest.itemCanBeRemovedFromCart()[pri:20, instance:Tests.CartTest@63021689] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:34 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:35 CEST" duration-ms="1779" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:19 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:22 CEST" duration-ms="3042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:35 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:36 CEST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:22 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:22 CEST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="multipleItemsCaneBeAddedToCart()[pri:30, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:36 CEST" name="multipleItemsCaneBeAddedToCart" finished-at="2023-10-17T14:25:37 CEST" duration-ms="1339" status="PASS">
+        <test-method signature="multipleItemsCaneBeAddedToCart()[pri:30, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:22 CEST" name="multipleItemsCaneBeAddedToCart" finished-at="2023-10-17T16:22:25 CEST" duration-ms="2379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleItemsCaneBeAddedToCart -->
-        <test-method is-config="true" signature="clearCart()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:37 CEST" name="clearCart" finished-at="2023-10-17T14:25:38 CEST" duration-ms="1136" status="PASS">
+        <test-method is-config="true" signature="clearCart()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:25 CEST" name="clearCart" finished-at="2023-10-17T16:22:26 CEST" duration-ms="1139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:38 CEST" name="tearDown" finished-at="2023-10-17T14:25:38 CEST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:26 CEST" name="tearDown" finished-at="2023-10-17T16:22:26 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=multipleItemsCaneBeAddedToCart status=SUCCESS method=CartTest.multipleItemsCaneBeAddedToCart()[pri:30, instance:Tests.CartTest@48ae9b55] output={null}]]]>
+                <![CDATA[[TestResult name=multipleItemsCaneBeAddedToCart status=SUCCESS method=CartTest.multipleItemsCaneBeAddedToCart()[pri:30, instance:Tests.CartTest@63021689] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:38 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:40 CEST" duration-ms="1343" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:26 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:29 CEST" duration-ms="3334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:40 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:40 CEST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:29 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:29 CEST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="userCanContinueShopping()[pri:40, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:40 CEST" name="userCanContinueShopping" finished-at="2023-10-17T14:25:40 CEST" duration-ms="278" status="PASS">
+        <test-method signature="userCanContinueShopping()[pri:40, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:29 CEST" name="userCanContinueShopping" finished-at="2023-10-17T16:22:30 CEST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanContinueShopping -->
-        <test-method is-config="true" signature="clearCart()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:40 CEST" name="clearCart" finished-at="2023-10-17T14:25:42 CEST" duration-ms="2105" status="PASS">
+        <test-method is-config="true" signature="clearCart()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:30 CEST" name="clearCart" finished-at="2023-10-17T16:22:32 CEST" duration-ms="2107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:42 CEST" name="tearDown" finished-at="2023-10-17T14:25:42 CEST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:32 CEST" name="tearDown" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCanContinueShopping status=SUCCESS method=CartTest.userCanContinueShopping()[pri:40, instance:Tests.CartTest@48ae9b55] output={null}]]]>
+                <![CDATA[[TestResult name=userCanContinueShopping status=SUCCESS method=CartTest.userCanContinueShopping()[pri:40, instance:Tests.CartTest@63021689] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.CartTest@48ae9b55]" started-at="2023-10-17T14:25:42 CEST" name="killProcesses" finished-at="2023-10-17T14:25:42 CEST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.CartTest@63021689]" started-at="2023-10-17T16:22:32 CEST" name="killProcesses" finished-at="2023-10-17T16:22:32 CEST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killProcesses -->
       </class> <!-- Tests.CartTest -->
       <class name="Tests.CheckoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:42 CEST" name="setUp" finished-at="2023-10-17T14:25:42 CEST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="setUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:42 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:44 CEST" duration-ms="1789" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="136" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:44 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:44 CEST" duration-ms="208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="allFieldsAreMandatory()[pri:10, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:44 CEST" name="allFieldsAreMandatory" finished-at="2023-10-17T14:25:45 CEST" duration-ms="231" status="PASS">
+        <test-method signature="allFieldsAreMandatory()[pri:10, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="allFieldsAreMandatory" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFieldsAreMandatory -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:45 CEST" name="tearDown" finished-at="2023-10-17T14:25:45 CEST" duration-ms="123" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=allFieldsAreMandatory status=SUCCESS method=CheckoutTest.allFieldsAreMandatory()[pri:10, instance:Tests.CheckoutTest@4ac3c60d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:45 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:46 CEST" duration-ms="1358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:46 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:46 CEST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="firstNameIsMandatory()[pri:20, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:46 CEST" name="firstNameIsMandatory" finished-at="2023-10-17T14:25:47 CEST" duration-ms="468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstNameIsMandatory -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:47 CEST" name="tearDown" finished-at="2023-10-17T14:25:47 CEST" duration-ms="125" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=firstNameIsMandatory status=SUCCESS method=CheckoutTest.firstNameIsMandatory()[pri:20, instance:Tests.CheckoutTest@4ac3c60d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:47 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:48 CEST" duration-ms="1327" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:48 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:48 CEST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="tearDown" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="lastNameIsMandatory()[pri:30, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:48 CEST" name="lastNameIsMandatory" finished-at="2023-10-17T14:25:49 CEST" duration-ms="352" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method signature="lastNameIsMandatory()[pri:30, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="lastNameIsMandatory" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastNameIsMandatory -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:49 CEST" name="tearDown" finished-at="2023-10-17T14:25:49 CEST" duration-ms="119" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=lastNameIsMandatory status=SUCCESS method=CheckoutTest.lastNameIsMandatory()[pri:30, instance:Tests.CheckoutTest@4ac3c60d] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="firstNameIsMandatory()[pri:20, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="firstNameIsMandatory" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstNameIsMandatory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="tearDown" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:49 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:51 CEST" duration-ms="1685" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:51 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:51 CEST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="zipCodeIsMandatory()[pri:40, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:51 CEST" name="zipCodeIsMandatory" finished-at="2023-10-17T14:25:51 CEST" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="tearDown" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="zipCodeIsMandatory()[pri:40, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="zipCodeIsMandatory" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- zipCodeIsMandatory -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:51 CEST" name="tearDown" finished-at="2023-10-17T14:25:51 CEST" duration-ms="122" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=zipCodeIsMandatory status=SUCCESS method=CheckoutTest.zipCodeIsMandatory()[pri:40, instance:Tests.CheckoutTest@4ac3c60d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.CheckoutTest@4ac3c60d]" started-at="2023-10-17T14:25:51 CEST" name="killProcesses" finished-at="2023-10-17T14:25:51 CEST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="killProcesses" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killProcesses -->
-      </class> <!-- Tests.CheckoutTest -->
-      <class name="Tests.HomepageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:25:57 CEST" name="setUp" finished-at="2023-10-17T14:25:57 CEST" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:25:57 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:58 CEST" duration-ms="1307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:25:58 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:58 CEST" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="hamburgerMenuIsHidden()[pri:10, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:25:58 CEST" name="hamburgerMenuIsHidden" finished-at="2023-10-17T14:25:58 CEST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.CheckoutTest@3e92efc3]" started-at="2023-10-17T16:22:32 CEST" name="tearDown" finished-at="2023-10-17T16:22:32 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.CheckoutTest -->
+      <class name="Tests.HomepageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="setUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="208" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="hamburgerMenuIsHidden()[pri:10, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="hamburgerMenuIsHidden" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hamburgerMenuIsHidden -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:25:58 CEST" name="tearDown" finished-at="2023-10-17T14:25:59 CEST" duration-ms="124" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=hamburgerMenuIsHidden status=SUCCESS method=HomepageTest.hamburgerMenuIsHidden()[pri:10, instance:Tests.HomepageTest@76508ed1] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="tearDown" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:25:59 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:00 CEST" duration-ms="1406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:00 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:00 CEST" duration-ms="235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="hamburgerMenuHasExpectedItems()[pri:20, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:00 CEST" name="hamburgerMenuHasExpectedItems" finished-at="2023-10-17T14:26:01 CEST" duration-ms="637" status="PASS">
+        <test-method signature="hamburgerMenuHasExpectedItems()[pri:20, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="hamburgerMenuHasExpectedItems" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hamburgerMenuHasExpectedItems -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:01 CEST" name="tearDown" finished-at="2023-10-17T14:26:01 CEST" duration-ms="129" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=hamburgerMenuHasExpectedItems status=SUCCESS method=HomepageTest.hamburgerMenuHasExpectedItems()[pri:20, instance:Tests.HomepageTest@76508ed1] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="tearDown" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:01 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:03 CEST" duration-ms="1807" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:03 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:03 CEST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="sortItemsAtoZ()[pri:30, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:03 CEST" name="sortItemsAtoZ" finished-at="2023-10-17T14:26:03 CEST" duration-ms="106" status="PASS">
+        <test-method signature="sortItemsAtoZ()[pri:30, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="sortItemsAtoZ" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortItemsAtoZ -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:03 CEST" name="tearDown" finished-at="2023-10-17T14:26:03 CEST" duration-ms="117" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sortItemsAtoZ status=SUCCESS method=HomepageTest.sortItemsAtoZ()[pri:30, instance:Tests.HomepageTest@76508ed1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:03 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:05 CEST" duration-ms="1295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:05 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:05 CEST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="sortItemsZtoA()[pri:40, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:05 CEST" name="sortItemsZtoA" finished-at="2023-10-17T14:26:05 CEST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="tearDown" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="sortItemsZtoA()[pri:40, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="sortItemsZtoA" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortItemsZtoA -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:05 CEST" name="tearDown" finished-at="2023-10-17T14:26:05 CEST" duration-ms="123" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sortItemsZtoA status=SUCCESS method=HomepageTest.sortItemsZtoA()[pri:40, instance:Tests.HomepageTest@76508ed1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:05 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:06 CEST" duration-ms="1358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:06 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:07 CEST" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="sortPriceHighToLow()[pri:50, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:07 CEST" name="sortPriceHighToLow" finished-at="2023-10-17T14:26:07 CEST" duration-ms="134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortPriceHighToLow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:07 CEST" name="tearDown" finished-at="2023-10-17T14:26:07 CEST" duration-ms="131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sortPriceHighToLow status=SUCCESS method=HomepageTest.sortPriceHighToLow()[pri:50, instance:Tests.HomepageTest@76508ed1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:07 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:09 CEST" duration-ms="1659" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:09 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:09 CEST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="tearDown" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="sortPriceLowToHigh()[pri:60, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:09 CEST" name="sortPriceLowToHigh" finished-at="2023-10-17T14:26:09 CEST" duration-ms="141" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method signature="sortPriceLowToHigh()[pri:60, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="sortPriceLowToHigh" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortPriceLowToHigh -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:09 CEST" name="tearDown" finished-at="2023-10-17T14:26:09 CEST" duration-ms="129" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=sortPriceLowToHigh status=SUCCESS method=HomepageTest.sortPriceLowToHigh()[pri:60, instance:Tests.HomepageTest@76508ed1] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="sortPriceHighToLow()[pri:50, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="sortPriceHighToLow" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:09 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:10 CEST" duration-ms="1228" status="PASS">
+        </test-method> <!-- sortPriceHighToLow -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:10 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:10 CEST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="tearDown" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="aboutPageCanBeOpened()[pri:70, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:10 CEST" name="aboutPageCanBeOpened" finished-at="2023-10-17T14:26:13 CEST" duration-ms="2462" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="aboutPageCanBeOpened()[pri:70, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="aboutPageCanBeOpened" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'CLVITN-28FQFX3', ip: '10.216.30.167'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
+at Helpers.WebDriverFactory.createWebDriver(WebDriverFactory.java:40)
+at Base.BaseTest.driverSetUp(BaseTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:243)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:119)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 42 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aboutPageCanBeOpened -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:13 CEST" name="tearDown" finished-at="2023-10-17T14:26:13 CEST" duration-ms="116" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=aboutPageCanBeOpened status=SUCCESS method=HomepageTest.aboutPageCanBeOpened()[pri:70, instance:Tests.HomepageTest@76508ed1] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.HomepageTest@76508ed1]" started-at="2023-10-17T14:26:13 CEST" name="killProcesses" finished-at="2023-10-17T14:26:13 CEST" duration-ms="6" status="PASS">
+        </test-method> <!-- pageSetUp -->
+        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="killProcesses" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killProcesses -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="tearDown" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.HomepageTest@470f1802]" started-at="2023-10-17T16:22:05 CEST" name="tearDown" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Tests.HomepageTest -->
       <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:13 CEST" name="setUp" finished-at="2023-10-17T14:26:13 CEST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:16 CEST" name="setUp" finished-at="2023-10-17T16:21:16 CEST" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:13 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:15 CEST" duration-ms="1614" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:16 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:18 CEST" duration-ms="2136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:15 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:15 CEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:18 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:18 CEST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="userCanLogIn()[pri:10, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:15 CEST" name="userCanLogIn" finished-at="2023-10-17T14:26:15 CEST" duration-ms="268" status="PASS">
+        <test-method signature="userCanLogIn()[pri:10, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:18 CEST" name="userCanLogIn" finished-at="2023-10-17T16:21:19 CEST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanLogIn -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:15 CEST" name="tearDown" finished-at="2023-10-17T14:26:15 CEST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:19 CEST" name="tearDown" finished-at="2023-10-17T16:21:19 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCanLogIn status=SUCCESS method=LoginTest.userCanLogIn()[pri:10, instance:Tests.LoginTest@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=userCanLogIn status=SUCCESS method=LoginTest.userCanLogIn()[pri:10, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:15 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:16 CEST" duration-ms="1312" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:19 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:22 CEST" duration-ms="3054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:16 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:16 CEST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCanLogOut()[pri:15, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:16 CEST" name="userCanLogOut" finished-at="2023-10-17T14:26:18 CEST" duration-ms="1368" status="PASS">
+        <test-method signature="userCanLogOut()[pri:15, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:22 CEST" name="userCanLogOut" finished-at="2023-10-17T16:21:23 CEST" duration-ms="1479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanLogOut -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:18 CEST" name="tearDown" finished-at="2023-10-17T14:26:18 CEST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:22 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:22 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:23 CEST" name="tearDown" finished-at="2023-10-17T16:21:23 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCanLogOut status=SUCCESS method=LoginTest.userCanLogOut()[pri:15, instance:Tests.LoginTest@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=userCanLogOut status=SUCCESS method=LoginTest.userCanLogOut()[pri:15, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:18 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:19 CEST" duration-ms="1257" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:23 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:27 CEST" duration-ms="3390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:19 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:19 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:27 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:27 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsername()[pri:20, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:19 CEST" name="userCannotLogInWithInvalidUsername" finished-at="2023-10-17T14:26:20 CEST" duration-ms="1191" status="PASS">
+        <test-method signature="userCannotLogInWithInvalidUsername()[pri:20, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:27 CEST" name="userCannotLogInWithInvalidUsername" finished-at="2023-10-17T16:21:28 CEST" duration-ms="1225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCannotLogInWithInvalidUsername -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:20 CEST" name="tearDown" finished-at="2023-10-17T14:26:20 CEST" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:28 CEST" name="tearDown" finished-at="2023-10-17T16:21:28 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsername status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsername()[pri:20, instance:Tests.LoginTest@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsername status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsername()[pri:20, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:20 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:22 CEST" duration-ms="1703" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:28 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:31 CEST" duration-ms="2975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:22 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:22 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidPassword()[pri:30, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:22 CEST" name="userCannotLogInWithInvalidPassword" finished-at="2023-10-17T14:26:23 CEST" duration-ms="1204" status="PASS">
+        <test-method signature="userCannotLogInWithInvalidPassword()[pri:30, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:31 CEST" name="userCannotLogInWithInvalidPassword" finished-at="2023-10-17T16:21:32 CEST" duration-ms="1219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCannotLogInWithInvalidPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:23 CEST" name="tearDown" finished-at="2023-10-17T14:26:24 CEST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:31 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:31 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:32 CEST" name="tearDown" finished-at="2023-10-17T16:21:32 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCannotLogInWithInvalidPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidPassword()[pri:30, instance:Tests.LoginTest@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=userCannotLogInWithInvalidPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidPassword()[pri:30, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:24 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:25 CEST" duration-ms="1302" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:32 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:35 CEST" duration-ms="3372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:25 CEST" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-10-17T14:26:26 CEST" duration-ms="1247" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:35 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:35 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:35 CEST" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-10-17T16:21:37 CEST" duration-ms="1211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -514,30 +1247,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCannotLogInWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:25 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:25 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:37 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:40 CEST" duration-ms="2936" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:26 CEST" name="tearDown" finished-at="2023-10-17T14:26:26 CEST" duration-ms="113" status="PASS">
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:37 CEST" name="tearDown" finished-at="2023-10-17T16:21:37 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:26 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:28 CEST" duration-ms="1601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:28 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:28 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:28 CEST" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-10-17T14:26:29 CEST" duration-ms="1206" status="PASS">
+        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:40 CEST" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-10-17T16:21:41 CEST" duration-ms="1264" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -553,26 +1278,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCannotLogInWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:29 CEST" name="tearDown" finished-at="2023-10-17T14:26:29 CEST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:40 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:40 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:41 CEST" name="tearDown" finished-at="2023-10-17T16:21:41 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:29 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:31 CEST" duration-ms="1410" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:41 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:44 CEST" duration-ms="3425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:31 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:31 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:44 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:44 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:31 CEST" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-10-17T14:26:32 CEST" duration-ms="1241" status="PASS">
+        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:44 CEST" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-10-17T16:21:45 CEST" duration-ms="1221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -588,26 +1317,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCannotLogInWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:32 CEST" name="tearDown" finished-at="2023-10-17T14:26:32 CEST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:45 CEST" name="tearDown" finished-at="2023-10-17T16:21:45 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:32 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:34 CEST" duration-ms="1718" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:45 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:48 CEST" duration-ms="2982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:34 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:34 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:48 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:48 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:34 CEST" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-10-17T14:26:35 CEST" duration-ms="1240" status="PASS">
+        <test-method signature="userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:48 CEST" name="userCannotLogInWithInvalidUsernameAndPassword" data-provider="usernameAndPassword" finished-at="2023-10-17T16:21:50 CEST" duration-ms="1219" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -623,101 +1352,101 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCannotLogInWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:35 CEST" name="tearDown" finished-at="2023-10-17T14:26:35 CEST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:50 CEST" name="tearDown" finished-at="2023-10-17T16:21:50 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=userCannotLogInWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.userCannotLogInWithInvalidUsernameAndPassword(java.lang.String,java.lang.String)[pri:40, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:35 CEST" name="driverSetUp" finished-at="2023-10-17T14:26:36 CEST" duration-ms="1284" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:50 CEST" name="driverSetUp" finished-at="2023-10-17T16:21:53 CEST" duration-ms="3272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method signature="userCannotLogInWithRandomData()[pri:50, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:36 CEST" name="userCannotLogInWithRandomData" finished-at="2023-10-17T14:26:48 CEST" duration-ms="12109" status="PASS">
+        <test-method signature="userCannotLogInWithRandomData()[pri:50, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:53 CEST" name="userCannotLogInWithRandomData" finished-at="2023-10-17T16:22:05 CEST" duration-ms="12022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCannotLogInWithRandomData -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:36 CEST" name="pageSetUp" finished-at="2023-10-17T14:26:36 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:21:53 CEST" name="pageSetUp" finished-at="2023-10-17T16:21:53 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:48 CEST" name="tearDown" finished-at="2023-10-17T14:26:48 CEST" duration-ms="116" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=userCannotLogInWithRandomData status=SUCCESS method=LoginTest.userCannotLogInWithRandomData()[pri:50, instance:Tests.LoginTest@41e36e46] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.LoginTest@41e36e46]" started-at="2023-10-17T14:26:48 CEST" name="killProcesses" finished-at="2023-10-17T14:26:48 CEST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:22:05 CEST" name="killProcesses" finished-at="2023-10-17T16:22:05 CEST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killProcesses -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5223e5ee]" started-at="2023-10-17T16:22:05 CEST" name="tearDown" finished-at="2023-10-17T16:22:05 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotLogInWithRandomData status=SUCCESS method=LoginTest.userCannotLogInWithRandomData()[pri:50, instance:Tests.LoginTest@5223e5ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Tests.LoginTest -->
       <class name="Tests.EndToEndTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:51 CEST" name="setUp" finished-at="2023-10-17T14:25:51 CEST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:32 CEST" name="setUp" finished-at="2023-10-17T16:22:32 CEST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:51 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:53 CEST" duration-ms="1317" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:32 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:33 CEST" duration-ms="1306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:53 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:53 CEST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:33 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:34 CEST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="itemCanBeBought()[pri:10, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:53 CEST" name="itemCanBeBought" finished-at="2023-10-17T14:25:54 CEST" duration-ms="1481" status="PASS">
+        <test-method signature="itemCanBeBought()[pri:10, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:34 CEST" name="itemCanBeBought" finished-at="2023-10-17T16:22:35 CEST" duration-ms="1578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- itemCanBeBought -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:54 CEST" name="tearDown" finished-at="2023-10-17T14:25:54 CEST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:35 CEST" name="tearDown" finished-at="2023-10-17T16:22:35 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=itemCanBeBought status=SUCCESS method=EndToEndTest.itemCanBeBought()[pri:10, instance:Tests.EndToEndTest@4facf68f] output={null}]]]>
+                <![CDATA[[TestResult name=itemCanBeBought status=SUCCESS method=EndToEndTest.itemCanBeBought()[pri:10, instance:Tests.EndToEndTest@1622f1b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:54 CEST" name="driverSetUp" finished-at="2023-10-17T14:25:56 CEST" duration-ms="1648" status="PASS">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:35 CEST" name="driverSetUp" finished-at="2023-10-17T16:22:39 CEST" duration-ms="3456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:56 CEST" name="pageSetUp" finished-at="2023-10-17T14:25:56 CEST" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:39 CEST" name="pageSetUp" finished-at="2023-10-17T16:22:39 CEST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetUp -->
-        <test-method signature="userCanGoToHomepageAfterShopping()[pri:20, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:56 CEST" name="userCanGoToHomepageAfterShopping" finished-at="2023-10-17T14:25:57 CEST" duration-ms="451" status="PASS">
+        <test-method signature="userCanGoToHomepageAfterShopping()[pri:20, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:39 CEST" name="userCanGoToHomepageAfterShopping" finished-at="2023-10-17T16:22:39 CEST" duration-ms="495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanGoToHomepageAfterShopping -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:57 CEST" name="tearDown" finished-at="2023-10-17T14:25:57 CEST" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:39 CEST" name="tearDown" finished-at="2023-10-17T16:22:39 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCanGoToHomepageAfterShopping status=SUCCESS method=EndToEndTest.userCanGoToHomepageAfterShopping()[pri:20, instance:Tests.EndToEndTest@4facf68f] output={null}]]]>
+                <![CDATA[[TestResult name=userCanGoToHomepageAfterShopping status=SUCCESS method=EndToEndTest.userCanGoToHomepageAfterShopping()[pri:20, instance:Tests.EndToEndTest@1622f1b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.EndToEndTest@4facf68f]" started-at="2023-10-17T14:25:57 CEST" name="killProcesses" finished-at="2023-10-17T14:25:57 CEST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="killProcesses()[pri:0, instance:Tests.EndToEndTest@1622f1b]" started-at="2023-10-17T16:22:39 CEST" name="killProcesses" finished-at="2023-10-17T16:22:39 CEST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killProcesses -->
       </class> <!-- Tests.EndToEndTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Sequence Tests -->
+  </suite> <!-- All Test Suite -->
 </testng-results>
