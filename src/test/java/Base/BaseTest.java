@@ -5,6 +5,8 @@ import Helpers.WebDriverFactory;
 import Pages.*;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.http.ClientConfig;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -47,7 +49,7 @@ public class BaseTest {
         options.addArguments("--headless");
         driver = new ChromeDriver(options);*/
         //System.setProperty("browser", "firefox");
-        System.setProperty("browser", "edge");
+        //System.setProperty("browser", "edge");
         //System.setProperty("browser", "safari");
         WebDriverFactory.setupDriver();
         driver = WebDriverFactory.createWebDriver();
@@ -77,6 +79,7 @@ public class BaseTest {
     }
 
     public boolean elementIsDisplayed(WebElement element) {
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         boolean isDisplayed = false;
         try {
             isDisplayed = element.isDisplayed();
@@ -115,8 +118,29 @@ public class BaseTest {
     }
 
     @AfterClass
-    public void killProcesses() throws IOException {
-        //Runtime.getRuntime().exec("end-edge-processes.bat");
-        //Runtime.getRuntime().exec("end-edge-webdriver-processes.bat");
+    public void killProcesses() throws Exception {
+        String browser = System.getProperty("browser");
+        if (browser == null) browser = "chrome";
+        switch (browser) {
+            case "edge":
+                Runtime.getRuntime().exec("end-edge-processes.bat");
+                Runtime.getRuntime().exec("end-edge-webdriver-processes.bat");
+                break;
+
+            case "chrome":
+                Runtime.getRuntime().exec("end-chrome-processes.bat");
+                Runtime.getRuntime().exec("end-chrome-webdriver-processes.bat");
+                break;
+
+            case "firefox":
+                Runtime.getRuntime().exec("end-firefox-processes.bat");
+                Runtime.getRuntime().exec("end-firefox-webdriver-processes.bat");
+                break;
+
+            default: throw new Exception("Unknown browser");
+
+
+        }
+
     }
 }

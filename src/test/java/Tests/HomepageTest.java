@@ -10,8 +10,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static Helpers.Data.*;
-import static Helpers.URLs.HOMEPAGEURL;
-import static Helpers.URLs.LOGINURL;
+import static Helpers.URLs.*;
+
 
 public class HomepageTest extends BaseTest {
     Select select;
@@ -79,7 +79,7 @@ public class HomepageTest extends BaseTest {
         headerPage.openHamburgerMenu();
         headerPage.clickOnAboutButton();
         Assert.assertEquals(driver.getTitle(), "Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing");
-        Assert.assertEquals(driver.getCurrentUrl(), LOGINURL);
+        Assert.assertEquals(driver.getCurrentUrl(), ABOUTPAGE);
     }
 
 

@@ -1,1 +1,3 @@
 target/screenshots
+target/surefire-reports
+target/maven-status

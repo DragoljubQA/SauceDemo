@@ -1,17 +1,18 @@
 package Tests;
 
 import Base.BaseTest;
+import Base.RetryAnalyzer;
 import Pages.CartPage;
 import Pages.HeaderPage;
 import Pages.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static Helpers.Data.*;
 import static Helpers.URLs.CARTURL;
-import static Helpers.URLs.HOMEPAGEURL;
 
 public class CartTest extends BaseTest {
 
@@ -28,7 +29,7 @@ public class CartTest extends BaseTest {
         cartPage.removeItemsFromCart();
     }
 
-    @Test(priority = 10)
+    @Test(priority = 10, retryAnalyzer = RetryAnalyzer.class)
     public void addItemToCart() {
         Assert.assertFalse(elementIsDisplayed(headerPage.CartBadge));
         addAnyItemToCart();
@@ -38,7 +39,7 @@ public class CartTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), CARTURL);
     }
 
-    @Test(priority = 20)
+    @Test(priority = 20, retryAnalyzer = RetryAnalyzer.class)
     public void itemCanBeRemovedFromCart() {
         addAnyItemToCart();
         homePage.clickOnCartButton();
@@ -47,7 +48,7 @@ public class CartTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), CARTURL);
     }
 
-    @Test(priority = 30)
+    @Test(priority = 30, retryAnalyzer = RetryAnalyzer.class)
     public void multipleItemsCaneBeAddedToCart() {
         Assert.assertFalse(elementIsDisplayed(headerPage.CartBadge));
         addAnyItemToCart();
@@ -59,7 +60,7 @@ public class CartTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), CARTURL);
     }
 
-    @Test(priority = 40)
+    @Test(priority = 40, retryAnalyzer = RetryAnalyzer.class)
     public void userCanContinueShopping() {
         addAnyItemToCart();
         homePage.clickOnCartButton();

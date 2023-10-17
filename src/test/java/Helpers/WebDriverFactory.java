@@ -23,6 +23,7 @@ public class WebDriverFactory {
 
             case "safari":
                 WebDriverManager.safaridriver().setup();
+                break;
 
             default:
                 WebDriverManager.chromedriver().setup();

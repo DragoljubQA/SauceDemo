@@ -1,9 +1,11 @@
 package Tests;
 
 import Base.BaseTest;
+import Base.RetryAnalyzer;
 import Pages.*;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static Helpers.Data.*;
@@ -22,7 +24,7 @@ public class EndToEndTest extends BaseTest {
         thankYouPage = new ThankYouPage(driver);
     }
 
-    @Test
+    @Test(priority = 10, retryAnalyzer = RetryAnalyzer.class)
     public void itemCanBeBought() {
         addAnyItemToCart();
         homePage.clickOnCartButton();
@@ -47,7 +49,7 @@ public class EndToEndTest extends BaseTest {
         softAssert.assertTrue(thankYouPage.BackHomeButton.isDisplayed());*/
     }
 
-    @Test
+    @Test(priority = 20, retryAnalyzer = RetryAnalyzer.class)
     public void userCanGoToHomepageAfterShopping() {
         addAnyItemToCart();
         homePage.clickOnCartButton();

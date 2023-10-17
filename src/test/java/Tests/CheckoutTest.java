@@ -1,18 +1,18 @@
 package Tests;
 
 import Base.BaseTest;
+import Base.RetryAnalyzer;
 import Pages.CartPage;
 import Pages.CheckoutPage;
 import Pages.HeaderPage;
 import Pages.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static Helpers.Data.*;
-import static Helpers.URLs.CARTURL;
 import static Helpers.URLs.CHECKOUTURL;
-
 public class CheckoutTest extends BaseTest {
 
     @BeforeMethod
@@ -24,7 +24,7 @@ public class CheckoutTest extends BaseTest {
         logIn(validUsername, validPassword);
     }
 
-    @Test(priority = 10)
+    @Test(priority = 10, retryAnalyzer = RetryAnalyzer.class)
     public void allFieldsAreMandatory() {
         addAnyItemToCart();
         homePage.clickOnCartButton();
@@ -35,7 +35,7 @@ public class CheckoutTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), CHECKOUTURL);
     }
 
-    @Test(priority = 20)
+    @Test(priority = 20, retryAnalyzer = RetryAnalyzer.class)
     public void firstNameIsMandatory() {
         addAnyItemToCart();
         homePage.clickOnCartButton();
@@ -48,7 +48,7 @@ public class CheckoutTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), CHECKOUTURL);
     }
 
-    @Test(priority = 30)
+    @Test(priority = 30, retryAnalyzer = RetryAnalyzer.class)
     public void lastNameIsMandatory() {
         addAnyItemToCart();
         homePage.clickOnCartButton();
@@ -61,7 +61,7 @@ public class CheckoutTest extends BaseTest {
         Assert.assertEquals(driver.getCurrentUrl(), CHECKOUTURL);
     }
 
-    @Test(priority = 40)
+    @Test(priority = 40, retryAnalyzer = RetryAnalyzer.class)
     public void zipCodeIsMandatory() {
         addAnyItemToCart();
         homePage.clickOnCartButton();
