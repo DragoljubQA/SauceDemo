@@ -1,4 +1,7 @@
 target/screenshots/
 target/surefire-reports/
 target/maven-status/
-test-output/
+test-output/All Test Suite/
+test-output/junitreports/
+test-output/old/
+test-output
