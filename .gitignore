@@ -1,7 +1,5 @@
 target/screenshots/
 target/surefire-reports/
 target/maven-status/
-test-output/All Test Suite/
-test-output/junitreports/
-test-output/old/
-test-output
+test-output/*
+!test-output/.gitkeep
