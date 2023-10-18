@@ -1,3 +1,4 @@
-target/screenshots/.
-target/surefire-reports/.
-target/maven-status/.
+target/screenshots/
+target/surefire-reports/
+target/maven-status/
+test-output/

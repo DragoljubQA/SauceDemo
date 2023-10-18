@@ -47,7 +47,7 @@ public class BaseTest {
         options.addArguments("--headless");
         driver = new ChromeDriver(options);*/
         //System.setProperty("browser", "firefox");
-        //System.setProperty("browser", "edge");
+        System.setProperty("browser", "edge");
         //System.setProperty("browser", "safari");
         WebDriverFactory.setupDriver();
         driver = WebDriverFactory.createWebDriver();
